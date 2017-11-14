@@ -11,6 +11,11 @@ sudo apt-get update
 sudo apt-get -y upgrade
 sudo apt-get install -y $APT_PACKAGES
 
+# Install Composer (https://askubuntu.com/a/282376)
+if [[ $(command -v php) ]]; then
+    curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+fi
+
 # For each virtualhost:
 # 1. Create the website directory.
 # 2. Create the virtual host configuration file.
