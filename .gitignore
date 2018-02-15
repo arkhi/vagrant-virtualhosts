@@ -1,5 +1,12 @@
+# Ignore all content within the root of the repository.
 /*
+
+# Only version specific files.
 !/.vagrant-virtualhosts
-!Vagrantfile
-!README.md
-!.gitignore
+!/.gitignore
+!/LICENSE
+!/README.md
+!/Vagrantfile
+
+# Ignore specific files
+/.vagrant-virtualhosts/config/websites.cfg

@@ -72,4 +72,6 @@ This setup can be useful if the machine you’re on does not have too much memor
     vagrant up --provision
     ```
 
+    If the website’s directory (`my-website.com`) already exists and contain a file called `bootstrap.sh`, this file will be executed at each provisioning. This allows to do whatever is necessary for this specific project, like installing software.
+
 1. Open [http://my-website.com.local](http://my-website.com.local) in your browser.
