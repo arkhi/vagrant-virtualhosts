@@ -1,5 +1,7 @@
 # Vagrant-virtualhosts
 
+**This repository now lives in https://framagit.org/arkhi/vagrant-virtualhosts.**
+
 Serve multiple websites with one virtual machine, using Apache virtual hosts.
 
 This setup can be useful if the machine you’re on does not have too much memory or space on the hard drive.
